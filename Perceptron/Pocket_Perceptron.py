@@ -2,7 +2,7 @@ import numpy as np
 import mnist_load_show as mnist
 from sklearn.metrics import confusion_matrix
 
-
+__author__ = 'Sandeep Panchamukhi'
 
 #load training data
 X, y = mnist.read_mnist_training_data()
